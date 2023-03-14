@@ -36,13 +36,18 @@ a:active{color: red;}
     display: block;
     color: orange;
     text-align: center;
+    font-size: 28px;
+    font-weight: 100px;
     margin: 1%;
     padding: 2%;
-    background-color: hwb(119 78% 4%);    
+    background-color: hwb(119 78% 4%); 
+    text-decoration: none;   
 }
 .item-bar a:hover{
     background-color: hwb(120 92% 1%);   
     color: orangered;
+    font-weight: bolder;
+    
 }
 
 .ingredient-item{
@@ -63,5 +68,6 @@ a:active{color: red;}
 }
 .return-home a:hover{
     background-color: rgb(255, 196, 175);
+    font-weight: bold;
 }
 
