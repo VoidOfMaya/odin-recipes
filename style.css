@@ -32,13 +32,17 @@ a:active{color: red;}
     height: 500px;
 }
 
-.item-bar{
-    color: white;
+.item-bar a{
+    display: block;
+    color: orange;
     text-align: center;
     margin: 1%;
     padding: 2%;
-    background-color: hwb(119 78% 4%);
-    
+    background-color: hwb(119 78% 4%);    
+}
+.item-bar a:hover{
+    background-color: hwb(120 92% 1%);   
+    color: orangered;
 }
 
 .ingredient-item{
@@ -48,9 +52,16 @@ a:active{color: red;}
 
 }
 
-.return-home{
-    background-color: rgb(255, 139, 31);
+.return-home a{
+    text-decoration: none;
+    font-size: 28px;
+    background-color: orangered;
+    display: block;
     text-align: center;
     padding: 3%;
+
+}
+.return-home a:hover{
+    background-color: rgb(255, 196, 175);
 }
 
